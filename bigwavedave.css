@@ -1,0 +1,46 @@
+/* Lines of text maximum 70-80 characters */
+
+
+@media screen and (max-width: 40.5em) {
+  body {
+    background-color: green;
+  }
+  .example-img {
+    width: auto;
+    float: none;
+  }
+}
+
+@media screen and (min-width: 40.5em) {
+body {
+    background-color: red;
+}
+  .example-img {
+    width: 50%;
+    float: left;
+  }
+}
+div.fullWidth {
+  width: 100%;
+}
+
+#header {
+	width:100%;
+	display:block;
+}
+
+#content {
+	width:100%;
+	display:block;
+}
+#bigwavedavedotbiz {
+	color:white;
+	width:80%;
+	display:inline;
+}
+
+#menu {
+	width:19.5%;
+	/*display:inline;*/
+	float:right;
+}
